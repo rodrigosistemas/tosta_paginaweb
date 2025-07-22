@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
   const rutasImagenes = [
-    "../imagenes/img1_prim.png",
+    "../imagenes/chicacomiendo.png",
     "../imagenes/mono.png",
-    "../imagenes/in3_secun.png",
-    "../imagenes/in4_prim.png",
-    "../imagenes/ing2_prim.png",
-    "../imagenes/in1_terc.png",
-    "../imagenes/im1_sext.png",
-    "../imagenes/img2_setc.png",
-    "../imagenes/in3_secun.png",
-    "../imagenes/img3_sext.png",
-    "../imagenes/im1_quint.png",
+    "../imagenes/chicafeliz.png",
+    "../imagenes/galletera.png",
+    "../imagenes/hotdogpapas.png",
+    "../imagenes/helado.png",
+    "../imagenes/tostamadera.png",
+    "../imagenes/pastel.png",
+    "../imagenes/comida.png",
+    "../imagenes/postre.png",
+    "../imagenes/tostavitrina.png",
     "../imagenes/imagenuno.png"
   ];
 
