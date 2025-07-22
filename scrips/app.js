@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const rutasImagenes = [
     "../imagenes/img1_prim.png",
-    "../imagenes/im1_cutert.png",
+    "../imagenes/mono.png",
     "../imagenes/in3_secun.png",
     "../imagenes/in4_prim.png",
     "../imagenes/ing2_prim.png",
