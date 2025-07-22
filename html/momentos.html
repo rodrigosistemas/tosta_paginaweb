@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tosta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/momentos.css" />
+</head>
+
+<body>
+  <!-- HEADER CON LOGO Y NAV -->
+  <header class="header">
+    <div class="container-logo">
+      <a href="../index.html"><img src="../imagenes/logotosta1.png" alt="logotosta" /></a>
+    </div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+    <label for="menu-toggle" class="menu-toggle-label"></label>
+
+    <div class="container-nav">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item-list"><a href="./sabores.html">Sabores</a></li>
+          <li class="nav-item-list"><a href="./momentos.html">Momentos</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container-buttom">
+      <a href="#" id="btn-carrito" class="btn-header">Haz tu pedido</a>
+    </div>
+  </header>
+
+  <main>
+    <p>2</p>
+    <h1 class="Titulo">Momentos Tosta</h1>
+
+    <div class="carrusel">
+      <div class="atras">
+        <img class="flechas" id="atras" src="../imagenes/atras.png" alt="atras" loading="lazy" />
+      </div>
+      <div class="imagenes" id="imagenes">
+        <div class="img-container"><a href=""><img src="../imagenes/img1_prim.png" alt="imagen 1" class="img" loading="lazy" /></a></div>
+        <div class="img-container"><a href=""><img src="../imagenes/im1_cutert.png" alt="imagen 2" class="img" loading="lazy" /></a></div>
+        <div class="img-container"><a href=""><img src="../imagenes/in3_secun.png" alt="imagen 3" class="img" loading="lazy" /></a></div>
+        <div class="img-container"><a href=""><img src="../imagenes/in4_prim.png" alt="imagen 4" class="img" loading="lazy" /></a></div>
+        <div class="img-container"><a href=""><img src="../imagenes/ing2_prim.png" alt="imagen 5" class="img" loading="lazy" /></a></div>
+        <div class="img-container"><a href=""><img src="../imagenes/in1_terc.png" alt="imagen 6" class="img" loading="lazy" /></a></div>
+      </div>
+      <div class="adelante">
+        <img class="flechas" id="adelante" src="../imagenes/adelante.png" alt="adelante" loading="lazy" />
+      </div>
+    </div>
+
+    <div class="puntos" id="puntos">
+      <p class="bold">●</p>
+      <p>●</p>
+    </div>
+
+    <h1 class="evltra">Eventos Proximos..</h1>
+    <p class="evntdescrip">
+      ¡Descubre lo que viene en Tosta! Desde noches de café con música en vivo hasta talleres de barismo y degustaciones especiales, cada semana traemos nuevas<br />
+      experiencias para disfrutar en comunidad. No te pierdas lo que tenemos preparado para ti. ¡Te esperamos!
+    </p>
+
+    <div class="tarjetas">
+      <div class="eventos">
+        <div class="sep">
+          <h2 class="nombreEvento">¡Lunes de Karaoke!</h2>
+          <p class="descripcionEvento">Ven con tus amigos a la tarde de karaoke mientras disfrutas de nuestras bebidas y comidas.</p>
+          <p class="horarioEvento">De 7:30 pm - 10:00 pm</p>
+        </div>
+        <div class="imgE"><img class="imgEvento" src="../imagenes/karaoke.jpg" alt="karaoke.imagen" /></div>
+      </div>
+
+      <div class="eventos">
+        <h2 class="nombreEvento">¡Miercoles de rock!</h2>
+        <p class="descripcionEvento">Una presentacion extendida de 1 hora de estos pndjos que no ensayan desde mayo.</p>
+        <p class="horarioEvento">De 9:30 pm - 10:30 pm</p>
+        <div class="imgE"></div>
+      </div>
+
+      <div class="eventos">
+        <h2 class="nombreEvento">¡Viernes de Varistas!</h2>
+        <p class="descripcionEvento">La experiencia de servir cafe como todo un profesional acompañado del experto Oscar DelaFuente.</p>
+        <p class="horarioEvento">De 7:30 pm - 9:00 pm</p>
+        <div class="imgE"></div>
+      </div>
+    </div>
+
+    <section class="formulario">
+      <div class="englobe">
+        <p>s</p>
+        <div class="txt_formulario">
+          <h2>Ven y pásala bien con nosotros</h2>
+          <p>Si tienes algún comentario, duda o sugerencia, por favor completa el formulario.</p>
+        </div>
+
+        <form class="inputBox" action="https://formspree.io/f/mldnzknq" method="POST">
+          <label class="textLabel" for="nombres">Tu nombre</label>
+          <input class="caja" type="text" name="nombres" id="nombres" placeholder="Ingresa tu nombre" required />
+
+          <label class="textLabel" for="apellido">Tu apellido</label>
+          <input class="caja" type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required />
+
+          <label class="textLabel" for="correo">Correo electrónico</label>
+          <input class="caja" type="email" name="correo" id="correo" placeholder="Ingresa tu correo" required />
+
+          <label class="textLabel" for="telefono">Teléfono</label>
+          <input class="caja" type="tel" name="telefono" id="telefono" placeholder="Ingresa tu teléfono" />
+
+          <label class="textLabel" for="asunto">Asunto</label>
+          <textarea class="asunto" name="asunto" id="asunto" rows="4" placeholder="Escribe tu mensaje o asunto aquí" required></textarea>
+
+          <input class="boton_formulario" type="submit" value="Enviar" />
+        </form>
+      </div>
+    </section>
+
+    <script src="../scrips/app.js"></script>
+  </main>
+
+  <footer class="footer">
+    <div class="container-footer">
+      <a target="_blank" href="https://www.facebook.com/profile.php?id=61558232955836"><img src="../imagenes/facebook.png" alt="Facebook" /></a>
+      <a target="_blank" href="https://www.instagram.com/tosta_cafeandchill/?hl=es"><img src="../imagenes/instagram.png" alt="Instagram" /></a>
+    </div>
+    <p>&copy;2025 Tosta Coffee and Chill. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
